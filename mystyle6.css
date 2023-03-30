@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+body {
+    background-color: rgba(43, 71, 97, 0.948);
+    color: white;
+}
+
+.container {
+
+    height: 100px;
+    width: 100%;
+
+}
+
+.name {
+    font-style: italic;
+    color: rgb(18, 154, 233);
+    font-size: 35px;
+    position: absolute;
+    left: 40px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 60px;
+    font-size: 25px;
+
+}
+
+ul {
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+.main {
+    background-color: pink;
+    margin: auto;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    border: 15px solid rgb(243, 1, 1);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+}
+
+.heading {
+    font-size: 8vh;
+    color: green;
+}
+
+#name1 {
+    width: 60%;
+    padding: 10px 5px;
+}
+
+#name2 {
+    width: 60%;
+    padding: 10px 5px;
+}
+
+#name3 {
+    width: 60%;
+    padding-bottom: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#submit {
+    margin: 20px 20px;
+    width: 25%;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.photo {
+    background-color: #ff8c69;
+    position: absolute;
+    top: 180px;
+    height: 300px;
+    width: 400px;
+    left: 200px;
+    border-radius: 30px;
+}
+
+#submit:hover {
+    background-color: darkslateblue;
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+.list {
+    display: inline;
+    width: 10px;
+}
+
+.fb {
+    position: relative;
+    width: 40px;
+    top: 480px;
+    left: -980px;
+    padding-inline: 0px;
+}
+
+@media screen and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .container {
+
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .name {
+        font-style: italic;
+        color: rgb(18, 154, 233);
+        font-size: 4vw;
+        position: absolute;
+        left: 17px;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 8px;
+        font-size: 3vw;
+
+    }
+
+    ul {
+        position: absolute;
+        float: right;
+        right: 15px;
+        top: 10px;
+    }
+
+    .main {
+        background-color: pink;
+        margin: auto;
+        margin-top: 150px;
+        width: 75%;
+        height: 40%;
+        text-align: center;
+        border: 15px solid rgb(243, 1, 1);
+        border-radius: 10px;
+    }
+
+    .photo {
+        background-color: #ff8c69;
+        position: absolute;
+        top: 75px;
+        height: 175px;
+        width: 35%;
+        left: 15%;
+        border-radius: 20px;
+    }
+
+    .fb {
+        position: relative;
+        width: 30px;
+        top: 200px;
+        left: -40%;
+    }
+
+    .heading {
+        font-size: 5vh;
+        color: green;
+    }
+
+    #name1 {
+        width: 70%;
+        padding: 10px 5px;
+    }
+
+    #name2 {
+        width: 70%;
+        padding: 10px 5px;
+    }
+
+    #name3 {
+        width: 70%;
+        padding-bottom: 70px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #submit {
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    body {
+        background-color: rgba(43, 71, 97, 0.948);
+        color: white;
+        height: 100%;
+    }
+
+    .container {
+
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .name {
+        font-style: italic;
+        color: rgb(18, 154, 233);
+        font-size: 32px;
+        position: absolute;
+        left: 30px;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 20px;
+        font-size: 25px;
+
+    }
+
+    ul {
+        position: absolute;
+        float: right;
+        right: 0px;
+        top: 10px;
+    }
+
+    .main {
+        background-color: pink;
+        margin: auto;
+        width: 40%;
+        height: 100%;
+        text-align: center;
+        border: 15px solid rgb(243, 1, 1);
+        border-radius: 10px;
+        padding-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .heading {
+        font-size: 8vh;
+        color: green;
+    }
+
+    #name1 {
+        width: 60%;
+        padding: 10px 5px;
+    }
+
+    #name2 {
+        width: 60%;
+        padding: 10px 5px;
+    }
+
+    #name3 {
+        width: 60%;
+        padding-bottom: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .photo {
+        background-color: #ff8c69;
+        position: absolute;
+        top: 180px;
+        height: 300px;
+        width: 25%;
+        left: 70px;
+        border-radius: 30px;
+    }
+
+    .fb {
+        position: relative;
+        width: 40px;
+        top: 475px;
+        left: -540px;
+    }
+}

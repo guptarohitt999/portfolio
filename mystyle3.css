@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+body {
+    background-color: rgba(43, 71, 97, 0.948);
+    color: white;
+}
+
+.container {
+
+    height: 100px;
+    width: 100%;
+
+}
+
+.name {
+    font-style: italic;
+    color: rgb(18, 154, 233);
+    font-size: 35px;
+    position: absolute;
+    left: 40px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 60px;
+    font-size: 25px;
+
+}
+
+ul {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+
+
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+    height: 580px;
+    justify-content: center;
+    text-align: center;
+}
+
+.hello1 {
+    background-color: rgb(28, 255, 244);
+    color: black;
+    width: 500px;
+    height: 250px;
+    margin: 20px 30px;
+    border-radius: 5px;
+}
+
+.hello2 {
+    background-color: rgb(255, 95, 122);
+    color: black;
+    width: 500px;
+    height: 250px;
+    margin: 20px 30px;
+    border-radius: 5px;
+}
+
+.hello3 {
+    background-color: rgb(255, 95, 122);
+    color: black;
+    width: 500px;
+    height: 250px;
+    margin: 20px 30px;
+    border-radius: 5px;
+}
+
+.hello4 {
+    background-color: rgb(28, 255, 244);
+    color: black;
+    width: 500px;
+    height: 250px;
+    margin: 20px 30px;
+    border-radius: 5px;
+}
+
+.my1 {
+    margin-top: 35px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+@media screen and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .container {
+
+        height: 50px;
+        width: 100%;
+
+    }
+
+    .name {
+        font-style: italic;
+        color: rgb(18, 154, 233);
+        font-size: 4vw;
+        position: absolute;
+        left: 17px;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 8px;
+        font-size: 3vw;
+
+    }
+
+    ul {
+        position: absolute;
+        float: right;
+        right: 5px;
+        top: 10px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100px;
+        margin: 20px 82px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hello1 {
+        background-color: rgb(28, 255, 244);
+        color: black;
+        width: 500px;
+        height: 220px;
+        margin: 20px -50px;
+        border-radius: 5px;
+    }
+
+    .hello2 {
+        background-color: rgb(255, 95, 122);
+        color: black;
+        width: 500px;
+        height: 220px;
+        margin: 0px -50px;
+        border-radius: 5px;
+    }
+
+    .hello3 {
+        background-color: rgb(28, 255, 244);
+        color: black;
+        width: 500px;
+        height: 220px;
+        margin: 20px -50px;
+        border-radius: 5px;
+    }
+
+    .hello4 {
+        background-color: rgb(255, 95, 122);
+        color: black;
+        width: 500px;
+        height: 220px;
+        margin: 0px -50px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    body {
+        background-color: rgba(43, 71, 97, 0.948);
+        color: white;
+        height: 100%;
+    }
+
+    .container {
+
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .name {
+        font-style: italic;
+        color: rgb(18, 154, 233);
+        font-size: 32px;
+        position: absolute;
+        left: 25px;
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 20px;
+        font-size: 25px;
+
+    }
+
+    ul {
+        position: absolute;
+        float: right;
+        right: 0px;
+        top: 10px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px 5px;
+        height: 580px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hello1 {
+        background-color: rgb(28, 255, 244);
+        color: black;
+        width: 335px;
+        height: 250px;
+        margin: 15px 15px;
+        border-radius: 5px;
+    }
+
+    .hello2 {
+        background-color: rgb(255, 95, 122);
+        color: black;
+        width: 335px;
+        height: 250px;
+        margin: 15px 15px;
+        border-radius: 5px;
+    }
+
+    .hello3 {
+        background-color: rgb(255, 95, 122);
+        color: black;
+        width: 335px;
+        height: 250px;
+        margin: 15px 15px;
+        border-radius: 5px;
+    }
+
+    .hello4 {
+        background-color: rgb(28, 255, 244);
+        color: black;
+        width: 335px;
+        height: 250px;
+        margin: 15px 15px;
+        border-radius: 5px;
+
+    }
+
+    .my1 {
+        margin-top: 35px;
+        padding: 0px 5px;
+    }
+}
